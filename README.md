@@ -13,27 +13,11 @@ A production-ready full-stack Notes SaaS application featuring secure JWT authen
 
 ---
 
-## ✨ Features
-
-* 🔐 Secure Authentication (JWT + bcrypt)
-* 📝 Full Notes Management (Create, Edit, Delete)
-* 🌙 Dark / Light Mode Toggle
-* 📊 Dashboard UI (SaaS-style layout)
-* 👤 User Profile Page
-* 🔒 Protected Routes
-* 🌐 Full Backend Integration (MongoDB)
-* 📱 Fully Responsive Design (Mobile + Desktop)
-* ⚡ Fast UI with Tailwind CSS
-
----
-
 ## 🌐 Live Demo
 
-| Platform       | Link                                  |
-| -------------- | ------------------------------------- |
-| 🚀 Frontend    | https://your-vercel-link.vercel.app   |
-| ⚙️ Backend API | https://your-render-link.onrender.com |
-
+- 🚀 **Frontend:** https://note-sphere-chi.vercel.app/  
+- ⚙️ **Backend API:** https://note-sphere-808p.onrender.com
+  
 ---
 
 ## 📸 Application Preview
@@ -49,6 +33,20 @@ A production-ready full-stack Notes SaaS application featuring secure JWT authen
 ### 📊 Dashboard
 
 ![Dashboard](./frontend/public/screenshots/Dashboard-Page.png)
+
+---
+
+## ✨ Features
+
+* 🔐 Secure Authentication (JWT + bcrypt)
+* 📝 Full Notes Management (Create, Edit, Delete)
+* 🌙 Dark / Light Mode Toggle
+* 📊 Dashboard UI (SaaS-style layout)
+* 👤 User Profile Page
+* 🔒 Protected Routes
+* 🌐 Full Backend Integration (MongoDB)
+* 📱 Fully Responsive Design (Mobile + Desktop)
+* ⚡ Fast UI with Tailwind CSS
 
 ---
 
