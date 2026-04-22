@@ -1,5 +1,5 @@
 module.exports = (err, req, res, next) => {
-  // eslint-disable-line no-unused-vars
+
   const status = err.statusCode || err.status || 500;
 
   if (err?.code === 11000) {

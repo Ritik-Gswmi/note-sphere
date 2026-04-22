@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const auth = require("../middleware/auth.middleware");
+const auth = require("../middleware/auth.middleware.js");
 const { listNotes, createNote, deleteNote, updateNote } = require("../controllers/note.controller");
 
 router.get("/", auth, listNotes);
