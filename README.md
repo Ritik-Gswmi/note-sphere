@@ -78,10 +78,12 @@ A production-ready full-stack Notes SaaS application featuring secure JWT authen
 
 ## 📁 Project Structure
 
-auth-app/
+```
+note-sphere/
 │
 ├── frontend/     # React app
 ├── backend/      # Express API
+```
 
 ---
 
@@ -89,13 +91,17 @@ auth-app/
 
 ### Backend (`backend/.env`)
 
+```
 PORT=5000
 MONGO_URI=your_mongodb_url
 JWT_SECRET=your_secret_key
+```
 
 ### Frontend (`frontend/.env`)
 
+```
 VITE_API_URL=http://localhost:5000/api
+```
 
 ---
 
@@ -103,15 +109,19 @@ VITE_API_URL=http://localhost:5000/api
 
 ### 1️⃣ Backend
 
+```bash
 cd backend
 npm install
 npm start
+```
 
 ### 2️⃣ Frontend
 
+```bash
 cd frontend
 npm install
 npm run dev
+```
 
 ---
 
@@ -119,22 +129,31 @@ npm run dev
 
 ### 🔐 Auth
 
+```http
 POST /auth/signup
 POST /auth/login
+```
 
 ### 👤 User
 
+```http
 GET /users/me
 PUT /users/me
+```
 
 ### 📝 Notes
 
+```http
 GET /notes
 POST /notes
 DELETE /notes/:id
+```
 
 All protected routes require:
+
+```
 Authorization: Bearer <token>
+```
 
 ---
 
@@ -143,12 +162,20 @@ Authorization: Bearer <token>
 ### Backend (Render)
 
 * Add environment variables
-* Start command: npm start
+* Start command:
+
+```bash
+npm start
+```
 
 ### Frontend (Vercel)
 
 * Add environment variable:
-  VITE_API_URL=https://your-backend.onrender.com/api
+
+```
+VITE_API_URL=https://your-backend.onrender.com/api
+```
+
 * Redeploy
 
 ---
@@ -164,10 +191,10 @@ Authorization: Bearer <token>
 
 ## 🌟 Future Improvements
 
-- 🔔 Notifications
-- 📂 Notes categorization / tags
-- 🔍 Search & filter notes
-- ☁️ Real-time sync (WebSockets)
+* 🔔 Notifications
+* 📂 Notes categorization / tags
+* 🔍 Search & filter notes
+* ☁️ Real-time sync (WebSockets)
 
 ---
 
