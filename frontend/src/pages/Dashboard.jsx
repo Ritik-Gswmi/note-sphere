@@ -42,6 +42,7 @@ export default function Dashboard() {
 
   const logout = () => {
     localStorage.removeItem("token");
+    window.dispatchEvent(new Event("authchange"));
     window.location.href = "/login";
   };
 

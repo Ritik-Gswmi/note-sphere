@@ -10,6 +10,7 @@ export default function Login() {
     try {
       const res = await api.post("/auth/login", form);
       localStorage.setItem("token", res.data.token);
+      window.dispatchEvent(new Event("authchange"));
       navigate("/dashboard");
     } catch (err) {
       const msg = err?.response?.data?.msg || "Invalid credentials";
